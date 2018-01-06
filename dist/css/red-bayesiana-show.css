@@ -1,0 +1,86 @@
+#pares,#butacas-pares {
+  position: relative;
+  height: 600px;
+  width: 100%;
+
+}
+
+#impares,#butacas-impares {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  
+}
+
+#butacas-pares{
+  border: 4px solid #222D32;
+  margin-left: 15px;
+  z-index: 10;
+}
+
+#butacas-impares{
+  border: 4px solid #222D32;
+  margin-left: 15px;
+  z-index: 10;
+}
+
+.but-info {
+  border: 4px solid #000000;
+  height: 600px;
+  }
+
+.butaca-par-info {
+  border: 4px solid #000000;
+  position: absolute;
+  background-color: #b1ffa2;
+  height: 600px;
+  width: 30%;
+  z-index: 11;
+}
+
+.butaca-impar-info {
+  border: 4px solid #000000;
+  position: absolute;
+  background-color: #b1ffa2;
+  height: 600px;
+  width: 30%;
+  z-index: 11;
+}
+
+.butaca-par-button{
+  position: absolute;
+  margin-left: 15px;
+  z-index: 11;
+}
+
+.butaca-impar-button{
+  position: absolute;
+  margin-left: 15px;
+  z-index: 11;
+}
+
+.but-top{
+  top:0
+}
+
+.but-middle{
+  top:50%;
+  margin-top:-10px;/*half of the .box height*/
+}
+
+.but-bottom{
+  bottom:0
+}
+
+.but-left{
+  left:0;
+}
+
+.but-center{
+  left:50%;
+  margin-left:-10px;/*half of the .box width*/
+}
+
+.but-right{
+  right:0;
+}
