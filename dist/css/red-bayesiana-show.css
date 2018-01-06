@@ -9,7 +9,7 @@
   position: relative;
   height: 600px;
   width: 100%;
-  
+
 }
 
 #butacas-pares{
@@ -34,8 +34,8 @@
   position: absolute;
   background-color: #b1ffa2;
   height: 600px;
-  width: 30%;
-  z-index: 11;
+
+  z-index: 12;
 }
 
 .butaca-impar-info {
