@@ -12,90 +12,22 @@ $(document).ready(function () {
     var cy = window.cy = cytoscape({
         container: document.getElementById('butacas-pares'),
 
+        minZoom: 3e-1,
+        maxZoom: 0.3e1,
         boxSelectionEnabled: false,
-        autounselectify: true,
+        autounselectify: false,
         selectionType: 'single',
         autoungrabify: true, //avoid drag and drop
 
         layout: {
-            name: 'grid',
+            name: 'preset',
             cols: 44,
-            padding: 20,
+            width: 2000,
           },
 
-        style: [
-            {
-                selector: 'node',
-                style: {
-                    content: 'data(name)',
-                    'text-valign': 'center',
-                    'text-halign': 'center',
-                    color: '#ffffff',
-                    'background-color': '#3C8DBC',
-                  },
-              },
-
-            {
-                selector: 'node[NodeType = "fila"]',
-                style: {
-                    'background-color': '#b4b62a',
-                  },
-              },
-
-            {
-                selector: 'node[NodeType = "activo"]',
-                style: {
-                    'background-color': '#046c04',
-                  },
-              },
-
-            {
-                selector: 'node[NodeType = "reservada"]',
-                style: {
-                    'background-color': '#ff4500',
-                  },
-              },
-
-            {
-                selector: 'node[NodeType = "pendiente"]',
-                style: {
-                    'background-color': '#ffa500',
-                  },
-              },
-
-            {
-                selector: 'node[NodeType = "libre"]',
-                style: {
-                    'background-color': '#808080',
-                  },
-              },
-
-              {
-                  selector: 'node[NodeType = "pasillo"]',
-                  style: {
-                      'background-color': '#000000',
-                    },
-                },
-
-              {
-                  selector: 'node[NodeType = "tunel"]',
-                  style: {
-                      'background-color': '#2b7baf',
-                    },
-                },
-            {
-                selector: 'edge',
-                style: {
-                    'curve-style': 'bezier',
-                    'width ': 4,
-                    'line-color': '#9dbaea',
-                    'target-arrow-color': '#9dbaea',
-                    content: 'data(label)',
-                  },
-              },
-        ],
+        style: customStyle,
         elements: {
-            nodes: nodos,
+            nodes: nodoc,
             edges: [],
           },
         ready: function () {
@@ -111,8 +43,12 @@ $(document).ready(function () {
     cy.on('tap', 'node', function (evt) {
         var node = evt.target;
         console.log('Prueba de clic ' + node.id());
-        $('#butaca-par-nro').text('Nro: ' + node.id());
-        $('#butaca-par-info').show('slow');
+        console.log(node.data().name);
+        var name = node.data().name;
+        if (name != 'T' && name != 'P') {
+          $('#butaca-par-nro').text('Nro: ' + node.id());
+          $('#butaca-par-info').show('slow');
+        }
       });
 
   });
