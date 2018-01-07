@@ -13,7 +13,7 @@ $(document).ready(function () {
         container: document.getElementById('butacas-pares'),
 
         minZoom: 3e-1,
-        maxZoom: 0.3e1,
+        maxZoom: 0.1e1,
         boxSelectionEnabled: false,
         autounselectify: false,
         selectionType: 'single',
@@ -21,8 +21,8 @@ $(document).ready(function () {
 
         layout: {
             name: 'preset',
-            cols: 44,
-            width: 2000,
+            width: 5000,
+            fit: true,
           },
 
         style: customStyle,
@@ -59,4 +59,5 @@ function cerrar_par() {
 
 function reset_par() {
   cy.reset();
+  cy.fit();
 }

@@ -126,12 +126,40 @@ var customStyle = [
   {
       selector: 'node[NodeType = "title"]',
       style: {
-          width: 100,
-          height: 60,
+          width: 1,
+          height: 1,
           'text-valign': 'center',
-          'text-outline-width': 3,
+          'text-outline-width': 6,
           'background-color': 'rgba(255,255,255,0)',
           'text-outline-color': '#1a6916',
+          'font-weight': 'bold',
+          color: '#ffffff',
+        },
+    },
+  {
+      selector: 'node[NodeType = "entrada"]',
+      style: {
+          width: 1,
+          height: 1,
+          'text-valign': 'center',
+          'text-outline-width': 6,
+          'background-color': 'rgba(255,255,255,0)',
+          'text-outline-color': '#6FB1FC',
+          'font-weight': 'bold',
+          'font-size': '80px',
+          'text-wrap': 'wrap',
+          color: '#ffffff',
+        },
+    },
+  {
+      selector: 'node[NodeType = "palco"]',
+      style: {
+          width: 430,
+          height: 180,
+          'text-valign': 'center',
+          'background-color': '#484f8c',
+          'font-weight': 'bold',
+          'font-size': '70px',
           color: '#ffffff',
         },
     },
@@ -147,7 +175,8 @@ var customStyle = [
       style: {
         'text-valign': 'center',
         'text-halign': 'center',
-        'font-size': '70px',
+        'font-size': '80px',
+        'text-wrap': 'wrap',
       },
     },
 ];
