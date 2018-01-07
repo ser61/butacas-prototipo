@@ -1,7 +1,7 @@
 var nodoc = [
   { data: { id: 'title-par', label: 'BUTACAS\nPARES', NodeType: 'title' }, position: { x: 1965, y: 275 }, selectable: false, classes: 'title-par' },
   // FILA 27
-  { data: { id: '1',  label: '27', NodeType: 'fila' },       position: { x: 215, y: 150 } },
+  { data: { id: '1',  label: '27', NodeType: 'fila' },       position: { x: 215, y: 150 }, selectable: false },
   { data: { id: '2',  label: '82', NodeType: 'libre' },      position: { x: 265, y: 150 } },
   { data: { id: '3',  label: '80', NodeType: 'libre' },      position: { x: 315, y: 150 } },
   { data: { id: '4',  label: '78', NodeType: 'libre' },      position: { x: 365, y: 150 } },
@@ -48,7 +48,7 @@ var nodoc = [
 
   { data: { id: '45', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 150 } },
   { data: { id: '46', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 150 } },
-  { data: { id: '47', label: '27', NodeType: 'fila' }, position: { x: 2515, y: 150 } },
+  { data: { id: '47', label: '27', NodeType: 'fila' }, position: { x: 2515, y: 150 }, selectable: false },
   { data: { id: '48', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 150 } },
   { data: { id: '49', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 150 } },
 
@@ -94,9 +94,9 @@ var nodoc = [
   { data: { id: '88', label: '75', NodeType: 'libre' }, position: { x: 4565, y: 150 } },
   { data: { id: '89', label: '77', NodeType: 'libre' }, position: { x: 4615, y: 150 } },
   { data: { id: '91', label: '79', NodeType: 'libre' }, position: { x: 4665, y: 150 } },
-  { data: { id: '92', label: '27', NodeType: 'fila' }, position: { x: 4715, y: 150 } },
+  { data: { id: '92', label: '27', NodeType: 'fila' }, position: { x: 4715, y: 150 }, selectable: false },
   // FILA 26
-  { data: { id: '93', label: '26', NodeType: 'fila' },       position: { x: 215, y: 200 } },
+  { data: { id: '93', label: '26', NodeType: 'fila' },       position: { x: 215, y: 200 }, selectable: false },
   { data: { id: '94', label: '82', NodeType: 'libre' },      position: { x: 265, y: 200 } },
   { data: { id: '95', label: '80', NodeType: 'libre' },      position: { x: 315, y: 200 } },
   { data: { id: '96', label: '78', NodeType: 'libre' },      position: { x: 365, y: 200 } },
@@ -143,7 +143,7 @@ var nodoc = [
 
   { data: { id: '137', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 200 } },
   { data: { id: '138', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 200 } },
-  { data: { id: '139', label: '26', NodeType: 'fila' }, position: { x: 2515, y: 200 } },
+  { data: { id: '139', label: '26', NodeType: 'fila' }, position: { x: 2515, y: 200 }, selectable: false },
   { data: { id: '140', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 200 } },
   { data: { id: '141', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 200 } },
 
@@ -188,9 +188,9 @@ var nodoc = [
   { data: { id: '180', label: '75', NodeType: 'libre' },  position: { x: 4565, y: 200 } },
   { data: { id: '181', label: '77', NodeType: 'libre' },  position: { x: 4615, y: 200 } },
   { data: { id: '182', label: '79', NodeType: 'libre' },  position: { x: 4665, y: 200 } },
-  { data: { id: '183', label: '26', NodeType: 'fila' },   position: { x: 4715, y: 200 } },
+  { data: { id: '183', label: '26', NodeType: 'fila' },   position: { x: 4715, y: 200 }, selectable: false },
   // FILA 3
-  { data: { id: '184', label: '25', NodeType: 'fila' },       position: { x: 215, y: 250 }},
+  { data: { id: '184', label: '25', NodeType: 'fila' },       position: { x: 215, y: 250 }, selectable: false },
   { data: { id: '185', label: '82', NodeType: 'libre' },      position: { x: 265, y: 250 }},
   { data: { id: '186', label: '80', NodeType: 'libre' },      position: { x: 315, y: 250 }},
   { data: { id: '187', label: '78', NodeType: 'libre' },      position: { x: 365, y: 250 }},
@@ -237,7 +237,7 @@ var nodoc = [
 
   { data: { id: '228', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 250 } },
   { data: { id: '229', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 250 } },
-  { data: { id: '230', label: '25', NodeType: 'fila' }, position: { x: 2515, y: 250 } },
+  { data: { id: '230', label: '25', NodeType: 'fila' }, position: { x: 2515, y: 250 }, selectable: false },
   { data: { id: '231', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 250 } },
   { data: { id: '232', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 250 } },
 
@@ -282,7 +282,7 @@ var nodoc = [
   { data: { id: '271', label: '75', NodeType: 'libre' },  position: { x: 4565, y: 250 } },
   { data: { id: '272', label: '77', NodeType: 'libre' },  position: { x: 4615, y: 250 } },
   { data: { id: '273', label: '79', NodeType: 'libre' },  position: { x: 4665, y: 250 } },
-  { data: { id: '274', label: '25', NodeType: 'fila' },   position: { x: 4715, y: 250 } },
+  { data: { id: '274', label: '25', NodeType: 'fila' },   position: { x: 4715, y: 250 }, selectable: false },
   // FILA 4
   { data: { id: '275', label: 'P', NodeType: 'pasillo' }, position: { x: 215, y: 300 } },
   { data: { id: '276', label: 'P', NodeType: 'pasillo' }, position: { x: 265, y: 300 } },
@@ -378,7 +378,7 @@ var nodoc = [
   { data: { id: '364', label: 'P', NodeType: 'pasillo' },  position: { x: 4665, y: 300 } },
   { data: { id: '365', label: 'P', NodeType: 'pasillo' },   position: { x: 4715, y: 300 } },
   // FILA 4
-  { data: { id: '366', label: '24', NodeType: 'fila' },      position: { x: 215, y: 350 } },
+  { data: { id: '366', label: '24', NodeType: 'fila' },      position: { x: 215, y: 350 }, selectable: false },
   { data: { id: '367', label: '82', NodeType: 'libre' },     position: { x: 265, y: 350 } },
   { data: { id: '368', label: '80', NodeType: 'libre' },     position: { x: 315, y: 350 } },
   { data: { id: '369', label: '78', NodeType: 'libre' },     position: { x: 365, y: 350 } },
@@ -425,7 +425,7 @@ var nodoc = [
 
   { data: { id: '410', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 350 } },
   { data: { id: '411', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 350 } },
-  { data: { id: '412', label: '24', NodeType: 'fila' }, position: { x: 2515, y: 350 } },
+  { data: { id: '412', label: '24', NodeType: 'fila' }, position: { x: 2515, y: 350 }, selectable: false },
   { data: { id: '413', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 350 } },
   { data: { id: '414', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 350 } },
 
@@ -470,9 +470,9 @@ var nodoc = [
   { data: { id: '453', label: '75', NodeType: 'libre' },  position: { x: 4565, y: 350 } },
   { data: { id: '454', label: '77', NodeType: 'libre' },  position: { x: 4615, y: 350 } },
   { data: { id: '455', label: '79', NodeType: 'libre' },  position: { x: 4665, y: 350 } },
-  { data: { id: '456', label: '24', NodeType: 'fila' },   position: { x: 4715, y: 350 } },
+  { data: { id: '456', label: '24', NodeType: 'fila' },   position: { x: 4715, y: 350 }, selectable: false },
   // FILA 5
-  { data: { id: '457', label: '23', NodeType: 'fila' },       position: { x: 215, y: 400 } },
+  { data: { id: '457', label: '23', NodeType: 'fila' },       position: { x: 215, y: 400 }, selectable: false },
   { data: { id: '458', label: '82', NodeType: 'libre' },      position: { x: 265, y: 400 } },
   { data: { id: '459', label: '80', NodeType: 'libre' },      position: { x: 315, y: 400 } },
   { data: { id: '460', label: '78', NodeType: 'libre' },      position: { x: 365, y: 400 } },
@@ -519,7 +519,7 @@ var nodoc = [
 
   { data: { id: '501', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 400 } },
   { data: { id: '502', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 400 } },
-  { data: { id: '503', label: '23', NodeType: 'fila' }, position: { x: 2515, y: 400 } },
+  { data: { id: '503', label: '23', NodeType: 'fila' }, position: { x: 2515, y: 400 }, selectable: false },
   { data: { id: '504', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 400 } },
   { data: { id: '505', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 400 } },
 
@@ -564,9 +564,9 @@ var nodoc = [
   { data: { id: '544', label: '75', NodeType: 'libre' },  position: { x: 4565, y: 400 } },
   { data: { id: '545', label: '77', NodeType: 'libre' },  position: { x: 4615, y: 400 } },
   { data: { id: '546', label: '79', NodeType: 'libre' },  position: { x: 4665, y: 400 } },
-  { data: { id: '547', label: '23', NodeType: 'fila' },   position: { x: 4715, y: 400 } },
+  { data: { id: '547', label: '23', NodeType: 'fila' },   position: { x: 4715, y: 400 }, selectable: false },
   // FILA 6
-  { data: { id: '548', label: '22', NodeType: 'fila' },      position: { x: 215, y: 450 } },
+  { data: { id: '548', label: '22', NodeType: 'fila' },      position: { x: 215, y: 450 }, selectable: false },
   { data: { id: '549', label: '82', NodeType: 'libre' },     position: { x: 265, y: 450 } },
   { data: { id: '550', label: '80', NodeType: 'libre' },     position: { x: 315, y: 450 } },
   { data: { id: '551', label: '78', NodeType: 'libre' },     position: { x: 365, y: 450 } },
@@ -613,7 +613,7 @@ var nodoc = [
 
   { data: { id: '592', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 450 } },
   { data: { id: '593', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 450 } },
-  { data: { id: '594', label: '22', NodeType: 'fila' }, position: { x: 2515, y: 450 } },
+  { data: { id: '594', label: '22', NodeType: 'fila' }, position: { x: 2515, y: 450 }, selectable: false },
   { data: { id: '595', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 450 } },
   { data: { id: '596', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 450 } },
 
@@ -658,9 +658,9 @@ var nodoc = [
   { data: { id: '635', label: '75', NodeType: 'libre' },  position: { x: 4565, y: 450 } },
   { data: { id: '636', label: '77', NodeType: 'libre' },  position: { x: 4615, y: 450 } },
   { data: { id: '637', label: '79', NodeType: 'libre' },  position: { x: 4665, y: 450 } },
-  { data: { id: '638', label: '22', NodeType: 'fila' },   position: { x: 4715, y: 450 } },
+  { data: { id: '638', label: '22', NodeType: 'fila' },   position: { x: 4715, y: 450 }, selectable: false },
   // FILA 7
-  { data: { id: '639', label: '21', NodeType: 'fila' },       position: { x: 215, y: 500 } },
+  { data: { id: '639', label: '21', NodeType: 'fila' },       position: { x: 215, y: 500 }, selectable: false },
   { data: { id: '640', label: '82', NodeType: 'libre' },      position: { x: 265, y: 500 } },
   { data: { id: '641', label: '80', NodeType: 'libre' },      position: { x: 315, y: 500 } },
   { data: { id: '642', label: '78', NodeType: 'libre' },      position: { x: 365, y: 500 } },
@@ -707,7 +707,7 @@ var nodoc = [
 
   { data: { id: '683', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 500 } },
   { data: { id: '684', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 500 } },
-  { data: { id: '685', label: '21', NodeType: 'fila' }, position: { x: 2515, y: 500 } },
+  { data: { id: '685', label: '21', NodeType: 'fila' }, position: { x: 2515, y: 500 }, selectable: false },
   { data: { id: '686', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 500 } },
   { data: { id: '687', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 500 } },
 
@@ -752,9 +752,9 @@ var nodoc = [
   { data: { id: '726', label: '75', NodeType: 'libre' },  position: { x: 4565, y: 500 } },
   { data: { id: '727', label: '77', NodeType: 'libre' },  position: { x: 4615, y: 500 } },
   { data: { id: '728', label: '79', NodeType: 'libre' },  position: { x: 4665, y: 500 } },
-  { data: { id: '729', label: '21', NodeType: 'fila' },   position: { x: 4715, y: 500 } },
+  { data: { id: '729', label: '21', NodeType: 'fila' },   position: { x: 4715, y: 500 }, selectable: false },
   // FILA 8
-  { data: { id: '730', label: '20', NodeType: 'fila' },      position: { x: 215, y: 550 } },
+  { data: { id: '730', label: '20', NodeType: 'fila' },      position: { x: 215, y: 550 }, selectable: false },
   { data: { id: '731', label: '82', NodeType: 'libre' },     position: { x: 265, y: 550 } },
   { data: { id: '732', label: '80', NodeType: 'libre' },     position: { x: 315, y: 550 } },
   { data: { id: '733', label: '78', NodeType: 'libre' },     position: { x: 365, y: 550 } },
@@ -801,7 +801,7 @@ var nodoc = [
 
   { data: { id: '774', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 550 } },
   { data: { id: '775', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 550 } },
-  { data: { id: '776', label: '20', NodeType: 'fila' }, position: { x: 2515, y: 550 } },
+  { data: { id: '776', label: '20', NodeType: 'fila' }, position: { x: 2515, y: 550 }, selectable: false },
   { data: { id: '777', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 550 } },
   { data: { id: '778', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 550 } },
 
@@ -846,9 +846,9 @@ var nodoc = [
   { data: { id: '817', label: '75', NodeType: 'libre' },  position: { x: 4565, y: 550 } },
   { data: { id: '818', label: '77', NodeType: 'libre' },  position: { x: 4615, y: 550 } },
   { data: { id: '819', label: '79', NodeType: 'libre' },  position: { x: 4665, y: 550 } },
-  { data: { id: '820', label: '20', NodeType: 'fila' },   position: { x: 4715, y: 550 } },
+  { data: { id: '820', label: '20', NodeType: 'fila' },   position: { x: 4715, y: 550 }, selectable: false },
   // FILA 9
-  { data: { id: '821', label: '19', NodeType: 'fila' },      position: { x: 215, y: 600 } },
+  { data: { id: '821', label: '19', NodeType: 'fila' },      position: { x: 215, y: 600 }, selectable: false },
   { data: { id: '822', label: '82', NodeType: 'libre' },     position: { x: 265, y: 600 } },
   { data: { id: '823', label: '80', NodeType: 'libre' },     position: { x: 315, y: 600 } },
   { data: { id: '824', label: '78', NodeType: 'libre' },     position: { x: 365, y: 600 } },
@@ -895,7 +895,7 @@ var nodoc = [
 
   { data: { id: '865', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 600 } },
   { data: { id: '866', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 600 } },
-  { data: { id: '867', label: '19', NodeType: 'fila' }, position: { x: 2515, y: 600 } },
+  { data: { id: '867', label: '19', NodeType: 'fila' }, position: { x: 2515, y: 600 }, selectable: false },
   { data: { id: '868', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 600 } },
   { data: { id: '869', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 600 } },
 
@@ -940,9 +940,9 @@ var nodoc = [
   { data: { id: '908', label: '75', NodeType: 'libre' },  position: { x: 4565, y: 600 } },
   { data: { id: '909', label: '77', NodeType: 'libre' },  position: { x: 4615, y: 600 } },
   { data: { id: '910', label: '79', NodeType: 'libre' },  position: { x: 4665, y: 600 } },
-  { data: { id: '911', label: '19', NodeType: 'fila' },   position: { x: 4715, y: 600 } },
+  { data: { id: '911', label: '19', NodeType: 'fila' },   position: { x: 4715, y: 600 }, selectable: false },
   // FILA 10
-  { data: { id: '912', label: 'P', NodeType: 'pasillo' }, position: { x: 215, y: 650 } },
+  { data: { id: '912', label: 'P', NodeType: 'pasillo' }, position: { x: 215, y: 650 }, selectable: false },
   { data: { id: '913', label: 'P', NodeType: 'pasillo' }, position: { x: 265, y: 650 } },
   { data: { id: '914', label: 'P', NodeType: 'pasillo' }, position: { x: 315, y: 650 } },
   { data: { id: '915', label: 'P', NodeType: 'pasillo' }, position: { x: 365, y: 650 } },
@@ -1036,7 +1036,7 @@ var nodoc = [
   { data: { id: '1001', label: 'P', NodeType: 'pasillo' },  position: { x: 4665, y: 650 } },
   { data: { id: '1002', label: 'P', NodeType: 'pasillo' },   position: { x: 4715, y: 650 } },
   // FILA 11
-  { data: { id: '1003', label: '18', NodeType: 'fila' },      position: { x: 215, y: 700 } },
+  { data: { id: '1003', label: '18', NodeType: 'fila' },      position: { x: 215, y: 700 }, selectable: false },
   { data: { id: '1004', label: 'Tunel\nde\nentrada', NodeType: 'entrada' },      position: { x: 490, y: 805 }, selectable: false },
   // { data: { id: '1005', label: 'T', NodeType: 'tunel' },      position: { x: 315, y: 700 } },
   // { data: { id: '1006', label: 'T', NodeType: 'tunel' },      position: { x: 365, y: 700 } },
@@ -1083,7 +1083,7 @@ var nodoc = [
 
   { data: { id: '1047', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 700 } },
   { data: { id: '1048', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 700 } },
-  { data: { id: '1049', label: '18', NodeType: 'fila' }, position: { x: 2515, y: 700 } },
+  { data: { id: '1049', label: '18', NodeType: 'fila' }, position: { x: 2515, y: 700 }, selectable: false },
   { data: { id: '1050', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 700 } },
   { data: { id: '1051', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 700 } },
 
@@ -1128,9 +1128,9 @@ var nodoc = [
   // { data: { id: '1090', label: 'T', NodeType: 'tunel' },  position: { x: 4565, y: 700 } },
   // { data: { id: '1091', label: 'T', NodeType: 'tunel' },  position: { x: 4615, y: 700 } },
   // { data: { id: '1092', label: 'T', NodeType: 'tunel' },  position: { x: 4665, y: 700 } },
-  { data: { id: '1093', label: '18', NodeType: 'fila' },   position: { x: 4715, y: 700 } },
+  { data: { id: '1093', label: '18', NodeType: 'fila' },   position: { x: 4715, y: 700 }, selectable: false },
   // FILA 12
-  { data: { id: '1094', label: '17', NodeType: 'fila' },       position: { x: 215, y: 750 } },
+  { data: { id: '1094', label: '17', NodeType: 'fila' },       position: { x: 215, y: 750 }, selectable: false },
   // { data: { id: '1095', label: 'T', NodeType: 'tunel' },       position: { x: 265, y: 750 } },
   // { data: { id: '1096', label: 'T', NodeType: 'tunel' },       position: { x: 315, y: 750 } },
   // { data: { id: '1097', label: 'T', NodeType: 'tunel' },       position: { x: 365, y: 750 } },
@@ -1177,7 +1177,7 @@ var nodoc = [
 
   { data: { id: '1138', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 750 } },
   { data: { id: '1139', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 750 } },
-  { data: { id: '1140', label: '17', NodeType: 'fila' }, position: { x: 2515, y: 750 } },
+  { data: { id: '1140', label: '17', NodeType: 'fila' }, position: { x: 2515, y: 750 }, selectable: false },
   { data: { id: '1141', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 750 } },
   { data: { id: '1142', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 750 } },
 
@@ -1222,9 +1222,9 @@ var nodoc = [
   // { data: { id: '1181', label: 'T', NodeType: 'tunel' },  position: { x: 4565, y: 750 } },
   // { data: { id: '1182', label: 'T', NodeType: 'tunel' },  position: { x: 4615, y: 750 } },
   // { data: { id: '1183', label: 'T', NodeType: 'tunel' },  position: { x: 4665, y: 750 } },
-  { data: { id: '1184', label: '17', NodeType: 'fila' },   position: { x: 4715, y: 750 } },
+  { data: { id: '1184', label: '17', NodeType: 'fila' },   position: { x: 4715, y: 750 }, selectable: false },
   // FILA 13
-  { data: { id: '1185', label: '16', NodeType: 'fila' },       position: { x: 215, y: 800 } },
+  { data: { id: '1185', label: '16', NodeType: 'fila' },       position: { x: 215, y: 800 }, selectable: false },
   // { data: { id: '1186', label: 'T', NodeType: 'tunel' },       position: { x: 265, y: 800 } },
   // { data: { id: '1187', label: 'T', NodeType: 'tunel' },       position: { x: 315, y: 800 } },
   // { data: { id: '1188', label: 'T', NodeType: 'tunel' },       position: { x: 365, y: 800 } },
@@ -1271,7 +1271,7 @@ var nodoc = [
 
   { data: { id: '1229', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 800 } },
   { data: { id: '1230', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 800 } },
-  { data: { id: '1231', label: '16', NodeType: 'fila' }, position: { x: 2515, y: 800 } },
+  { data: { id: '1231', label: '16', NodeType: 'fila' }, position: { x: 2515, y: 800 }, selectable: false },
   { data: { id: '1232', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 800 } },
   { data: { id: '1233', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 800 } },
 
@@ -1316,9 +1316,9 @@ var nodoc = [
   // { data: { id: '1272', label: 'T', NodeType: 'tunel' },  position: { x: 4565, y: 800 } },
   // { data: { id: '1273', label: 'T', NodeType: 'tunel' },  position: { x: 4615, y: 800 } },
   // { data: { id: '1274', label: 'T', NodeType: 'tunel' },  position: { x: 4665, y: 800 } },
-  { data: { id: '1275', label: '16', NodeType: 'fila' },   position: { x: 4715, y: 800 } },
+  { data: { id: '1275', label: '16', NodeType: 'fila' },   position: { x: 4715, y: 800 }, selectable: false },
   // FILA 14
-  { data: { id: '1276', label: '15', NodeType: 'fila' },      position: { x: 215, y: 850 } },
+  { data: { id: '1276', label: '15', NodeType: 'fila' },      position: { x: 215, y: 850 }, selectable: false },
   // { data: { id: '1277', label: 'T', NodeType: 'tunel' },      position: { x: 265, y: 850 } },
   // { data: { id: '1278', label: 'T', NodeType: 'tunel' },      position: { x: 315, y: 850 } },
   // { data: { id: '1279', label: 'T', NodeType: 'tunel' },      position: { x: 365, y: 850 } },
@@ -1365,7 +1365,7 @@ var nodoc = [
 
   { data: { id: '1320', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 850 } },
   { data: { id: '1321', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 850 } },
-  { data: { id: '1322', label: '15', NodeType: 'fila' }, position: { x: 2515, y: 850 } },
+  { data: { id: '1322', label: '15', NodeType: 'fila' }, position: { x: 2515, y: 850 }, selectable: false },
   { data: { id: '1323', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 850 } },
   { data: { id: '1324', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 850 } },
 
@@ -1410,9 +1410,9 @@ var nodoc = [
   // { data: { id: '1363', label: 'T', NodeType: 'tunel' },  position: { x: 4565, y: 850 } },
   // { data: { id: '1364', label: 'T', NodeType: 'tunel' },  position: { x: 4615, y: 850 } },
   // { data: { id: '1365', label: 'T', NodeType: 'tunel' },  position: { x: 4665, y: 850 } },
-  { data: { id: '1366', label: '15', NodeType: 'fila' },   position: { x: 4715, y: 850 } },
+  { data: { id: '1366', label: '15', NodeType: 'fila' },   position: { x: 4715, y: 850 }, selectable: false },
   // FILA 15
-  { data: { id: '1377', label: '14', NodeType: 'fila' },      position: { x: 215, y: 900 } },
+  { data: { id: '1377', label: '14', NodeType: 'fila' },      position: { x: 215, y: 900 }, selectable: false },
   // { data: { id: '1378', label: 'T', NodeType: 'tunel' },      position: { x: 265, y: 900 } },
   // { data: { id: '1379', label: 'T', NodeType: 'tunel' },      position: { x: 315, y: 900 } },
   // { data: { id: '1380', label: 'T', NodeType: 'tunel' },      position: { x: 365, y: 900 } },
@@ -1459,7 +1459,7 @@ var nodoc = [
 
   { data: { id: '1521', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 900 } },
   { data: { id: '1522', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 900 } },
-  { data: { id: '1523', label: '14', NodeType: 'fila' }, position: { x: 2515, y: 900 } },
+  { data: { id: '1523', label: '14', NodeType: 'fila' }, position: { x: 2515, y: 900 }, selectable: false },
   { data: { id: '1524', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 900 } },
   { data: { id: '1525', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 900 } },
 
@@ -1504,7 +1504,7 @@ var nodoc = [
   // { data: { id: '1564', label: 'T', NodeType: 'tunel' },  position: { x: 4565, y: 900 } },
   // { data: { id: '1565', label: 'T', NodeType: 'tunel' },  position: { x: 4615, y: 900 } },
   // { data: { id: '1566', label: 'T', NodeType: 'tunel' },  position: { x: 4665, y: 900 } },
-  { data: { id: '1567', label: '27', NodeType: 'fila' },   position: { x: 4715, y: 900 } },
+  { data: { id: '1567', label: '14', NodeType: 'fila' },   position: { x: 4715, y: 900 }, selectable: false },
   // FILA 16
   { data: { id: '1568', label: 'P', NodeType: 'pasillo' }, position: { x: 215, y: 950 } },
   { data: { id: '1569', label: 'P', NodeType: 'pasillo' }, position: { x: 265, y: 950 } },
@@ -1598,9 +1598,9 @@ var nodoc = [
   { data: { id: '1655', label: 'P', NodeType: 'pasillo' },  position: { x: 4565, y: 950 } },
   { data: { id: '1656', label: 'P', NodeType: 'pasillo' },  position: { x: 4615, y: 950 } },
   { data: { id: '1657', label: 'P', NodeType: 'pasillo' },  position: { x: 4665, y: 950 } },
-  { data: { id: '1658', label: '27', NodeType: 'fila' },   position: { x: 4715, y: 950 } },
+  { data: { id: '1658', label: 'P', NodeType: 'pasillo' },   position: { x: 4715, y: 950 } },
   // FILA 17
-  { data: { id: '1659', label: '12', NodeType: 'fila' },       position: { x: 215, y: 1000 } },
+  { data: { id: '1659', label: '12', NodeType: 'fila' },       position: { x: 215, y: 1000 }, selectable: false },
   { data: { id: '1660', label: '82', NodeType: 'libre' },      position: { x: 265, y: 1000 } },
   { data: { id: '1661', label: '80', NodeType: 'libre' },      position: { x: 315, y: 1000 } },
   { data: { id: '1662', label: '78', NodeType: 'libre' },      position: { x: 365, y: 1000 } },
@@ -1647,7 +1647,7 @@ var nodoc = [
 
   { data: { id: '1703', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 1000 } },
   { data: { id: '1704', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 1000 } },
-  { data: { id: '1705', label: '12', NodeType: 'fila' }, position: { x: 2515, y: 1000 } },
+  { data: { id: '1705', label: '12', NodeType: 'fila' }, position: { x: 2515, y: 1000 }, selectable: false },
   { data: { id: '1706', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 1000 } },
   { data: { id: '1707', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 1000 } },
 
@@ -1692,9 +1692,9 @@ var nodoc = [
   { data: { id: '1946', label: '75', NodeType: 'libre' },  position: { x: 4565, y: 1000 } },
   { data: { id: '1947', label: '77', NodeType: 'libre' },  position: { x: 4615, y: 1000 } },
   { data: { id: '1948', label: '79', NodeType: 'libre' },  position: { x: 4665, y: 1000 } },
-  { data: { id: '1949', label: '12', NodeType: 'fila' },   position: { x: 4715, y: 1000 } },
+  { data: { id: '1949', label: '12', NodeType: 'fila' },   position: { x: 4715, y: 1000 }, selectable: false },
   // FILA 18
-  { data: { id: '1950', label: '11', NodeType: 'fila' },       position: { x: 215, y: 1050 } },
+  { data: { id: '1950', label: '11', NodeType: 'fila' },       position: { x: 215, y: 1050 }, selectable: false },
   { data: { id: '1951', label: '82', NodeType: 'libre' },      position: { x: 265, y: 1050 } },
   { data: { id: '1952', label: '80', NodeType: 'libre' },      position: { x: 315, y: 1050 } },
   { data: { id: '1953', label: '78', NodeType: 'libre' },      position: { x: 365, y: 1050 } },
@@ -1741,7 +1741,7 @@ var nodoc = [
 
   { data: { id: '1994', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 1050 } },
   { data: { id: '1995', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 1050 } },
-  { data: { id: '1996', label: '11', NodeType: 'fila' }, position: { x: 2515, y: 1050 } },
+  { data: { id: '1996', label: '11', NodeType: 'fila' }, position: { x: 2515, y: 1050 }, selectable: false },
   { data: { id: '1997', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 1050 } },
   { data: { id: '1998', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 1050 } },
 
@@ -1786,9 +1786,9 @@ var nodoc = [
   { data: { id: '2037', label: '75', NodeType: 'libre' },  position: { x: 4565, y: 1050 } },
   { data: { id: '2038', label: '77', NodeType: 'libre' },  position: { x: 4615, y: 1050 } },
   { data: { id: '2039', label: '79', NodeType: 'libre' },  position: { x: 4665, y: 1050 } },
-  { data: { id: '2040', label: '11', NodeType: 'fila' },   position: { x: 4715, y: 1050 } },
+  { data: { id: '2040', label: '11', NodeType: 'fila' },   position: { x: 4715, y: 1050 }, selectable: false },
   // FILA 19
-  { data: { id: '2041', label: '10', NodeType: 'fila' },       position: { x: 215, y: 1100 } },
+  { data: { id: '2041', label: '10', NodeType: 'fila' },       position: { x: 215, y: 1100 }, selectable: false },
   { data: { id: '2042', label: '82', NodeType: 'libre' },      position: { x: 265, y: 1100 } },
   { data: { id: '2043', label: '80', NodeType: 'libre' },      position: { x: 315, y: 1100 } },
   { data: { id: '2044', label: '78', NodeType: 'libre' },      position: { x: 365, y: 1100 } },
@@ -1835,7 +1835,7 @@ var nodoc = [
 
   { data: { id: '2085', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 1100 } },
   { data: { id: '2086', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 1100 } },
-  { data: { id: '2087', label: '10', NodeType: 'fila' }, position: { x: 2515, y: 1100 } },
+  { data: { id: '2087', label: '10', NodeType: 'fila' }, position: { x: 2515, y: 1100 }, selectable: false },
   { data: { id: '2088', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 1100 } },
   { data: { id: '2089', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 1100 } },
 
@@ -1880,9 +1880,9 @@ var nodoc = [
   { data: { id: '2128', label: '75', NodeType: 'libre' },  position: { x: 4565, y: 1100 } },
   { data: { id: '2129', label: '77', NodeType: 'libre' },  position: { x: 4615, y: 1100 } },
   { data: { id: '2130', label: '79', NodeType: 'libre' },  position: { x: 4665, y: 1100 } },
-  { data: { id: '2131', label: '10', NodeType: 'fila' },   position: { x: 4715, y: 1100 } },
+  { data: { id: '2131', label: '10', NodeType: 'fila' },   position: { x: 4715, y: 1100 }, selectable: false },
   // FILA 20
-  { data: { id: '2132', label: '09', NodeType: 'fila' },       position: { x: 215, y: 1150 } },
+  { data: { id: '2132', label: '09', NodeType: 'fila' },       position: { x: 215, y: 1150 }, selectable: false },
   { data: { id: '2133', label: '82', NodeType: 'libre' },      position: { x: 265, y: 1150 } },
   { data: { id: '2134', label: '80', NodeType: 'libre' },      position: { x: 315, y: 1150 } },
   { data: { id: '2135', label: '78', NodeType: 'libre' },      position: { x: 365, y: 1150 } },
@@ -1929,7 +1929,7 @@ var nodoc = [
 
   { data: { id: '2176', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 1150 } },
   { data: { id: '2177', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 1150 } },
-  { data: { id: '2178', label: '09', NodeType: 'fila' }, position: { x: 2515, y: 1150 } },
+  { data: { id: '2178', label: '09', NodeType: 'fila' }, position: { x: 2515, y: 1150 }, selectable: false },
   { data: { id: '2179', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 1150 } },
   { data: { id: '2180', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 1150 } },
 
@@ -1974,9 +1974,9 @@ var nodoc = [
   { data: { id: '2219', label: '75', NodeType: 'libre' },  position: { x: 4565, y: 1150 } },
   { data: { id: '2220', label: '77', NodeType: 'libre' },  position: { x: 4615, y: 1150 } },
   { data: { id: '2221', label: '79', NodeType: 'libre' },  position: { x: 4665, y: 1150 } },
-  { data: { id: '2222', label: '09', NodeType: 'fila' },   position: { x: 4715, y: 1150 } },
+  { data: { id: '2222', label: '09', NodeType: 'fila' },   position: { x: 4715, y: 1150 }, selectable: false },
   // FILA 21
-  { data: { id: '2223', label: '08', NodeType: 'fila' },       position: { x: 215, y: 1200 } },
+  { data: { id: '2223', label: '08', NodeType: 'fila' },       position: { x: 215, y: 1200 }, selectable: false },
   { data: { id: '2224', label: '82', NodeType: 'libre' },      position: { x: 265, y: 1200 } },
   { data: { id: '2225', label: '80', NodeType: 'libre' },      position: { x: 315, y: 1200 } },
   { data: { id: '2226', label: '78', NodeType: 'libre' },      position: { x: 365, y: 1200 } },
@@ -2023,7 +2023,7 @@ var nodoc = [
 
   { data: { id: '2267', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 1200 } },
   { data: { id: '2268', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 1200 } },
-  { data: { id: '2269', label: '08', NodeType: 'fila' }, position: { x: 2515, y: 1200 } },
+  { data: { id: '2269', label: '08', NodeType: 'fila' }, position: { x: 2515, y: 1200 }, selectable: false },
   { data: { id: '2270', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 1200 } },
   { data: { id: '2271', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 1200 } },
 
@@ -2068,9 +2068,9 @@ var nodoc = [
   { data: { id: '2310', label: '75', NodeType: 'libre' },  position: { x: 4565, y: 1200 } },
   { data: { id: '2311', label: '77', NodeType: 'libre' },  position: { x: 4615, y: 1200 } },
   { data: { id: '2312', label: '79', NodeType: 'libre' },  position: { x: 4665, y: 1200 } },
-  { data: { id: '2313', label: '08', NodeType: 'fila' },   position: { x: 4715, y: 1200 } },
+  { data: { id: '2313', label: '08', NodeType: 'fila' },   position: { x: 4715, y: 1200 }, selectable: false },
   // FILA 22
-  { data: { id: '2314', label: '07', NodeType: 'fila' },       position: { x: 215, y: 1250 } },
+  { data: { id: '2314', label: '07', NodeType: 'fila' },       position: { x: 215, y: 1250 }, selectable: false },
   { data: { id: '2315', label: 'Tunel\nde\nentrada', NodeType: 'entrada' },       position: { x: 490, y: 1400 }, selectable: false },
   // { data: { id: '2316', label: 'T', NodeType: 'tunel' },       position: { x: 315, y: 1250 } },
   // { data: { id: '2317', label: 'T', NodeType: 'tunel' },       position: { x: 365, y: 1250 } },
@@ -2117,7 +2117,7 @@ var nodoc = [
 
   { data: { id: '2358', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 1250 } },
   { data: { id: '2359', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 1250 } },
-  { data: { id: '2360', label: '07', NodeType: 'fila' }, position: { x: 2515, y: 1250 } },
+  { data: { id: '2360', label: '07', NodeType: 'fila' }, position: { x: 2515, y: 1250 }, selectable: false },
   { data: { id: '2361', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 1250 } },
   { data: { id: '2362', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 1250 } },
 
@@ -2162,9 +2162,9 @@ var nodoc = [
   // { data: { id: '2401', label: 'T', NodeType: 'tunel' },  position: { x: 4565, y: 1250 } },
   // { data: { id: '2402', label: 'T', NodeType: 'tunel' },  position: { x: 4615, y: 1250 } },
   // { data: { id: '2403', label: 'T', NodeType: 'tunel' },  position: { x: 4665, y: 1250 } },
-  { data: { id: '2404', label: '07', NodeType: 'fila' },   position: { x: 4715, y: 1250 } },
+  { data: { id: '2404', label: '07', NodeType: 'fila' },   position: { x: 4715, y: 1250 }, selectable: false },
   // FILA 23
-  { data: { id: '2405', label: '06', NodeType: 'fila' },   position: { x: 215, y: 1300 } },
+  { data: { id: '2405', label: '06', NodeType: 'fila' },   position: { x: 215, y: 1300 }, selectable: false },
   // { data: { id: '2406', label: 'T', NodeType: 'tunel' },   position: { x: 265, y: 1300 } },
   // { data: { id: '2407', label: 'T', NodeType: 'tunel' },   position: { x: 315, y: 1300 } },
   // { data: { id: '2408', label: 'T', NodeType: 'tunel' },   position: { x: 365, y: 1300 } },
@@ -2211,7 +2211,7 @@ var nodoc = [
 
   { data: { id: '2449', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 1300 } },
   { data: { id: '2450', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 1300 } },
-  { data: { id: '2451', label: '06', NodeType: 'fila' }, position: { x: 2515, y: 1300 } },
+  { data: { id: '2451', label: '06', NodeType: 'fila' }, position: { x: 2515, y: 1300 }, selectable: false },
   { data: { id: '2452', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 1300 } },
   { data: { id: '2453', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 1300 } },
 
@@ -2256,9 +2256,9 @@ var nodoc = [
   // { data: { id: '2492', label: 'T', NodeType: 'tunel' },  position: { x: 4565, y: 1300 } },
   // { data: { id: '2493', label: 'T', NodeType: 'tunel' },  position: { x: 4615, y: 1300 } },
   // { data: { id: '2494', label: 'T', NodeType: 'tunel' },  position: { x: 4665, y: 1300 } },
-  { data: { id: '2495', label: '06', NodeType: 'fila' },   position: { x: 4715, y: 1300 } },
+  { data: { id: '2495', label: '06', NodeType: 'fila' },   position: { x: 4715, y: 1300 }, selectable: false },
   // FILA 24
-  { data: { id: '2496', label: '05', NodeType: 'fila' },    position: { x: 215, y: 1350 } },
+  { data: { id: '2496', label: '05', NodeType: 'fila' },    position: { x: 215, y: 1350 }, selectable: false },
   // { data: { id: '2497', label: 'T', NodeType: 'tunel' },    position: { x: 265, y: 1350 } },
   // { data: { id: '2498', label: 'T', NodeType: 'tunel' },    position: { x: 315, y: 1350 } },
   // { data: { id: '2499', label: 'T', NodeType: 'tunel' },    position: { x: 365, y: 1350 } },
@@ -2305,7 +2305,7 @@ var nodoc = [
 
   { data: { id: '2540', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 1350 } },
   { data: { id: '2541', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 1350 } },
-  { data: { id: '2542', label: '05', NodeType: 'fila' }, position: { x: 2515, y: 1350 } },
+  { data: { id: '2542', label: '05', NodeType: 'fila' }, position: { x: 2515, y: 1350 }, selectable: false },
   { data: { id: '2543', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 1350 } },
   { data: { id: '2544', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 1350 } },
 
@@ -2350,9 +2350,9 @@ var nodoc = [
   // { data: { id: '2583', label: 'T', NodeType: 'tunel' },  position: { x: 4565, y: 1350 } },
   // { data: { id: '2584', label: 'T', NodeType: 'tunel' },  position: { x: 4615, y: 1350 } },
   // { data: { id: '2585', label: 'T', NodeType: 'tunel' },  position: { x: 4665, y: 1350 } },
-  { data: { id: '2586', label: '05', NodeType: 'fila' },   position: { x: 4715, y: 1350 } },
+  { data: { id: '2586', label: '05', NodeType: 'fila' },   position: { x: 4715, y: 1350 }, selectable: false },
   // FILA 25
-  { data: { id: '2587', label: '04', NodeType: 'fila' },   position: { x: 215, y: 1400 } },
+  { data: { id: '2587', label: '04', NodeType: 'fila' },   position: { x: 215, y: 1400 }, selectable: false },
   // { data: { id: '2588', label: 'T', NodeType: 'tunel' },   position: { x: 265, y: 1400 } },
   // { data: { id: '2589', label: 'T', NodeType: 'tunel' },   position: { x: 315, y: 1400 } },
   // { data: { id: '2590', label: 'T', NodeType: 'tunel' },   position: { x: 365, y: 1400 } },
@@ -2399,7 +2399,7 @@ var nodoc = [
 
   { data: { id: '2631', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 1400 } },
   { data: { id: '2632', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 1400 } },
-  { data: { id: '2633', label: '04', NodeType: 'fila' }, position: { x: 2515, y: 1400 } },
+  { data: { id: '2633', label: '04', NodeType: 'fila' }, position: { x: 2515, y: 1400 }, selectable: false },
   { data: { id: '2634', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 1400 } },
   { data: { id: '2635', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 1400 } },
 
@@ -2444,9 +2444,9 @@ var nodoc = [
   // { data: { id: '2674', label: 'T', NodeType: 'tunel' },  position: { x: 4565, y: 1400 } },
   // { data: { id: '2675', label: 'T', NodeType: 'tunel' },  position: { x: 4615, y: 1400 } },
   // { data: { id: '2676', label: 'T', NodeType: 'tunel' },  position: { x: 4665, y: 1400 } },
-  { data: { id: '2677', label: '04', NodeType: 'fila' },   position: { x: 4715, y: 1400 } },
+  { data: { id: '2677', label: '04', NodeType: 'fila' },   position: { x: 4715, y: 1400 }, selectable: false },
   // FILA 26
-  { data: { id: '2678', label: '03', NodeType: 'fila' }, position: { x: 215, y: 1450 } },
+  { data: { id: '2678', label: '03', NodeType: 'fila' }, position: { x: 215, y: 1450 }, selectable: false },
   // { data: { id: '2679', label: 'T', NodeType: 'tunel' }, position: { x: 265, y: 1450 } },
   // { data: { id: '2680', label: 'T', NodeType: 'tunel' }, position: { x: 315, y: 1450 } },
   // { data: { id: '2681', label: 'T', NodeType: 'tunel' }, position: { x: 365, y: 1450 } },
@@ -2493,7 +2493,7 @@ var nodoc = [
 
   { data: { id: '2722', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 1450 } },
   { data: { id: '2723', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 1450 } },
-  { data: { id: '2724', label: '03', NodeType: 'fila' }, position: { x: 2515, y: 1450 } },
+  { data: { id: '2724', label: '03', NodeType: 'fila' }, position: { x: 2515, y: 1450 }, selectable: false },
   { data: { id: '2725', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 1450 } },
   { data: { id: '2726', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 1450 } },
 
@@ -2538,9 +2538,9 @@ var nodoc = [
   // { data: { id: '2765', label: 'T', NodeType: 'tunel' },  position: { x: 4565, y: 1450 } },
   // { data: { id: '2766', label: 'T', NodeType: 'tunel' },  position: { x: 4615, y: 1450 } },
   // { data: { id: '2767', label: 'T', NodeType: 'tunel' },  position: { x: 4665, y: 1450 } },
-  { data: { id: '2768', label: '03', NodeType: 'fila' },   position: { x: 4715, y: 1450 } },
+  { data: { id: '2768', label: '03', NodeType: 'fila' },   position: { x: 4715, y: 1450 }, selectable: false },
   // FILA 27
-  { data: { id: '2769', label: '02', NodeType: 'fila' }, position: { x: 215, y: 1500 } },
+  { data: { id: '2769', label: '02', NodeType: 'fila' }, position: { x: 215, y: 1500 }, selectable: false },
   // { data: { id: '2770', label: 'T', NodeType: 'tunel' }, position: { x: 265, y: 1500 } },
   // { data: { id: '2771', label: 'T', NodeType: 'tunel' }, position: { x: 315, y: 1500 } },
   // { data: { id: '2772', label: 'T', NodeType: 'tunel' }, position: { x: 365, y: 1500 } },
@@ -2587,7 +2587,7 @@ var nodoc = [
 
   { data: { id: '2813', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 1500 } },
   { data: { id: '2814', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 1500 } },
-  { data: { id: '2815', label: '02', NodeType: 'fila' }, position: { x: 2515, y: 1500 } },
+  { data: { id: '2815', label: '02', NodeType: 'fila' }, position: { x: 2515, y: 1500 }, selectable: false },
   { data: { id: '2816', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 1500 } },
   { data: { id: '2817', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 1500 } },
 
@@ -2632,9 +2632,9 @@ var nodoc = [
   { data: { id: '2856', label: '75', NodeType: 'libre' },  position: { x: 4565, y: 1500 } },
   { data: { id: '2857', label: '77', NodeType: 'libre' },  position: { x: 4615, y: 1500 } },
   { data: { id: '2858', label: '79', NodeType: 'libre' },  position: { x: 4665, y: 1500 } },
-  { data: { id: '2859', label: '02', NodeType: 'fila' },   position: { x: 4715, y: 1500 } },
+  { data: { id: '2859', label: '02', NodeType: 'fila' },   position: { x: 4715, y: 1500 }, selectable: false },
   // FILA 27
-  { data: { id: '2860', label: '01', NodeType: 'fila' }, position: { x: 215, y: 1550 } },
+  { data: { id: '2860', label: '01', NodeType: 'fila' }, position: { x: 215, y: 1550 }, selectable: false },
   // { data: { id: '2861', label: 'T', NodeType: 'tunel' }, position: { x: 265, y: 1550 } },
   // { data: { id: '2862', label: 'T', NodeType: 'tunel' }, position: { x: 315, y: 1550 } },
   // { data: { id: '2863', label: 'T', NodeType: 'tunel' }, position: { x: 365, y: 1550 } },
@@ -2681,7 +2681,7 @@ var nodoc = [
 
   { data: { id: '2904', label: 'P', NodeType: 'pasillo' }, position: { x: 2415, y: 1550 } },
   { data: { id: '2905', label: 'P', NodeType: 'pasillo' }, position: { x: 2465, y: 1550 } },
-  { data: { id: '2906', label: '01', NodeType: 'fila' }, position: { x: 2515, y: 1550 } },
+  { data: { id: '2906', label: '01', NodeType: 'fila' }, position: { x: 2515, y: 1550 }, selectable: false },
   { data: { id: '2907', label: 'P', NodeType: 'pasillo' }, position: { x: 2565, y: 1550 } },
   { data: { id: '2908', label: 'P', NodeType: 'pasillo' }, position: { x: 2615, y: 1550 } },
 
@@ -2726,5 +2726,5 @@ var nodoc = [
   { data: { id: '2947', label: '75', NodeType: 'libre' },  position: { x: 4565, y: 1550 } },
   { data: { id: '2948', label: '77', NodeType: 'libre' },  position: { x: 4615, y: 1550 } },
   { data: { id: '2949', label: '79', NodeType: 'libre' },  position: { x: 4665, y: 1550 } },
-  { data: { id: '2950', label: '01', NodeType: 'fila' },   position: { x: 4715, y: 1550 } },
+  { data: { id: '2950', label: '01', NodeType: 'fila' },   position: { x: 4715, y: 1550 }, selectable: false },
 ];

@@ -21,7 +21,7 @@ $(document).ready(function () {
 
         layout: {
             name: 'preset',
-            width: 5000,
+            width: 6000,
             fit: true,
           },
 
@@ -43,9 +43,8 @@ $(document).ready(function () {
     cy.on('tap', 'node', function (evt) {
         var node = evt.target;
         console.log('Prueba de clic ' + node.id());
-        console.log(node.data().name);
-        var name = node.data().name;
-        if (name != 'T' && name != 'P') {
+        var type = node.data().NodeType;
+        if (type != 'fila' && type != 'pasillo' && type != 'title' && type != 'entrada') {
           $('#butaca-par-nro').text('Nro: ' + node.id());
           $('#butaca-par-info').show('slow');
         }

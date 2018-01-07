@@ -166,8 +166,8 @@ var customStyle = [
   {
       selector: ':selected',
       style: {
-        'border-width': 3,
-        'border-color': '#333000',
+        'border-width': 10,
+        'border-color': '#EDA1ED',
       },
     },
   {
